@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/849372966/mandy-hotel-supplies#readme",
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "next": "^16.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
