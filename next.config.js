@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['trae-api-cn.mchost.guru'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'trae-api-cn.mchost.guru',
+        pathname: '/api/ide/v1/text_to_image/**',
+      },
+    ],
   },
 };
 
